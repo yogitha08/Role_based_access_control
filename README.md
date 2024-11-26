@@ -38,24 +38,10 @@ Open package.json and add the following line:
 Start the development server:
 
 npm start
-Project Structure
-react-rbac/
-├── src/
-│   ├── api/
-│   │   └── axios.js        # Axios instance configuration
-│   ├── components/
-│   │   ├── Admin.js        # Admin dashboard
-│   │   ├── Editor.js       # Editor dashboard
-│   │   ├── Home.js         # Home page
-│   │   ├── Login.js        # Login page
-│   │   ├── Register.js     # Registration page
-│   │   ├── Layout.js       # Shared layout for navigation
-│   │   ├── RequireAuth.js  # Component to protect routes
-│   │   └── Unauthorized.js # Unauthorized access page
-│   ├── App.js              # Main app component
-│   ├── index.js            # Application entry point
-│   └── styles/             # CSS files
-├── .env                    # Environment variables
-├── package.json            # Project dependencies and scripts
-└── README.md               # Project documentation
+API Endpoints
+Below are sample API endpoints used in the application (modify as needed for your backend):
 
+POST /api/auth/login: User login.
+POST /api/auth/register: User registration.
+GET /api/auth/user: Fetch logged-in user details.
+GET /api/roles: Fetch available roles.
