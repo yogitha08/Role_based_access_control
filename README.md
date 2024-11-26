@@ -1,4 +1,5 @@
 React RBAC Application
+
 This project is a Role-Based Access Control (RBAC) system built using React. It allows users to access specific features and routes based on their roles, such as Admin, Editor, or User. The application includes user authentication, secure routing, and role-based authorization.
 Features
 Role-Based Access Control: Restricts routes and actions based on user roles.
